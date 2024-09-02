@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    text-align: center; /* Centralizar todos os textos */
+}
+header {
+    background-color: #0044cc; 
+    color: #fff;
+    padding: 10px 0;
+}
+nav {
+    background-color: #ffcc00; 
+    padding: 10px 0;
+}
+nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+nav a:hover {
+    background-color: #ffdd33; 
+}
+.container {
+    padding: 20px;
+}
+section {
+    padding: 20px;
+}
+.banner {
+    background-color: #0044cc; 
+    color: #fff;
+    padding: 50px 0;
+}
+.formacao-box, .idioma-box, .projeto-box {
+    background-color: #f0f0f0; 
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px auto; /* Centralizar caixas com margem automática */
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+    width: fit-content; /* Ajustar largura em relação ao conteúdo que exibo */
+}
+.formacao-box:hover, .idioma-box:hover, .projeto-box:hover {
+    background-color: #e0e0e0; 
+    transform: scale(1.02); /* Leve aumento de tamanho ao fazer o hover */
+}
+.projeto-box button {
+    background-color: #0044cc; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.projeto-box button:hover {
+    background-color: #003399; 
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form button {
+    background-color: #0044cc; 
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #003399; 
+}
